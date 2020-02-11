@@ -5,20 +5,118 @@
 	<title> List #4.2 </title>
 
 	<style>
-		div {
+
+.circleDownLeft {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  background-color: transparent;
+  border-radius: 50%;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+  color: white;
+  }
+  	.circleDownLeft:hover {
+  	background-color: black;
+  	color: white;
+  	}
+
+  .circleDownRight {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  background-color: transparent;
+  border-radius: 50%;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+  color: white;
+  }
+  	.circleDownRight:hover {
+  	background-color: black;
+  	color: white;
+  	}
+
+.circleUpLeft {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  background-color: transparent;
+  border-radius: 50%;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+  color: white;
+  }
+  	.circleUpLeft:hover {
+  	background-color: black;
+  	color: white;
+  	}
+
+ .circleUpRight {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  background-color: transparent;
+  border-radius: 50%;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+  color: white;
+  }
+  	.circleUpRight:hover {
+  	background-color: black;
+  	color: white;
+  	}
+		
+		.block {
 		letter-spacing: 1em;
 		font-family: monospace;
 		text-align: justify;
 		padding: 20em;
-
 		}
+
+		#fixed {
+		letter-spacing: 1em;
+		font-weight: bold;	
+		padding: 10em;
+		}
+
+.square {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  background-color: transparent;
+}
+
+  .square:hover {
+    background-color: black;
+    color: white;
+    }
+
+
 	</style>
 </head>
 
 <body>
-	<p>
 
-<div>
+<a href="list_4.3.html"> <div class="circleDownLeft"> </div> </a>
+<a href="list_5.2.html"> <div class="circleUpRight"> </div> </a>
+<a href="index.html"> <div class="square"> </div> </a>
+
+
+<div class="block">
 night biking
 footsteps in the morning
 sitting on carpets
@@ -28,7 +126,7 @@ winter sunbathing
 walking in the darkness
 process videos
 the smell before a storm
-climbing mulberry trees
+<div id="fixed"> climbing mulberry trees</div>
 the twitch before falling asleep
 late night summer driving
 kunik before kissing
@@ -39,7 +137,6 @@ tongue clicking
 raw cotton
 The Big Bang Theory
 ordering the same dish
-dry skin
 thin toilet paper
 sales tax
 fake laughter
